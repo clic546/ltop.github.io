@@ -1,0 +1,134 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 280px;
+    top: 90px;
+}
+.col-sm, .col-sm1, .col-sm2, .col-sm3 {
+    border: 1px solid rgba(235, 235, 235, 0.623);
+    width: 450px;
+    height: 710px;
+    border-radius: 40px;
+    padding: 25px 10px 10px 10px;
+    margin-right: 30px;
+    -webkit-box-shadow: 0px 0px 17px -9px rgba(34, 60, 80, 0.16);
+    -moz-box-shadow: 0px 0px 17px -9px rgba(34, 60, 80, 0.16);
+    box-shadow: 0px 0px 17px -9px;
+    transition: 0.4s;
+
+}
+img {
+    width: 400px;
+    height: 300px;
+}
+.nazva {
+    width: 60px;
+    height: 45px;
+    border: 1px solid rgb(115, 0, 247);
+    background: rgb(115, 0, 247);
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 360px;
+    transition: 0.4s;
+}
+.dengi {
+    color: black;
+    border: 1px solid rgb(255, 174, 0);
+    width: 90px;
+    height: 40px;
+    background: rgb(255, 174, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+}
+.button {
+    color: black;
+    background: rgb(255, 174, 0);
+    border: 1px solid rgb(255, 174, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: 0.4s;
+}
+.a {
+    color: grey;
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+    top: -30px;
+    left: 300px;
+}
+p {
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.alpa {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.alpa1 {
+    text-align: center;
+}
+.button:hover {
+    background: yellow;
+    border: 1px solid yellow;
+    color: rgb(199, 199, 199);
+}
+.nazva:hover {
+    border: 1px solid rgb(144, 29, 252);
+    background: rgb(144, 29, 252);
+}
+.aa {
+    border: 3px solid black;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.aa:hover {
+    background: rgb(235, 235, 235);
+    border: 3px solid rgb(92, 92, 92);
+    color: rgb(85, 85, 85);
+}
+.col-sm:hover {
+    transform:  scale(1.05);
+    box-shadow: 0px 0px 20px red;
+}
+.col-sm1:hover {
+    transform:  scale(1.05);
+    box-shadow: 0px 0px 20px black;
+}
+.col-sm2:hover {
+    transform:  scale(1.05);
+    box-shadow: 0px 0px 20px greenyellow;
+}
+.col-sm3:hover {
+    transform:  scale(1.05);
+    box-shadow: 0px 0px 20px pink;
+}
